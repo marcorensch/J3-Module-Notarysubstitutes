@@ -11,6 +11,7 @@
 use Joomla\CMS\HTML\HTMLHelper;
 
 defined('_JEXEC') or die;
+$active_column = $col->column;
 
 if(strlen($sub->$active_column)):
     $active_column = $col->column;
